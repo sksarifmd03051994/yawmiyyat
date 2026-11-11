@@ -1,3 +1,4 @@
+const $=s=>document.querySelector(s), bn=n=>String(n).replace(/\d/g,d=>"০১২৩৪৫৬৭৮৯"[+d]);
 const categories=await (await fetch("./categories.json")).json();
 const firebaseConfig=window.YAWMIYYAT_FIREBASE_CONFIG||null;
 let auth=null,db=null,user=null,activePage="daily",records={},current={},monthRecords={},weekRecords={};
