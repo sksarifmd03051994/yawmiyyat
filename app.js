@@ -1,7 +1,3 @@
-import {initializeApp} from "https://www.gstatic.com/firebasejs/10.12.2/firebase-app.js";
-import {getAuth,GoogleAuthProvider,signInWithPopup,onAuthStateChanged,signOut} from "https://www.gstatic.com/firebasejs/10.12.2/firebase-auth.js";
-import {getFirestore,doc,setDoc,getDoc,collection,getDocs} from "https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore.js";
-const $=s=>document.querySelector(s), bn=n=>String(n).replace(/\d/g,d=>"০১২৩৪৫৬৭৮৯"[+d]);
 const categories=await (await fetch("./categories.json")).json();
 const firebaseConfig=window.YAWMIYYAT_FIREBASE_CONFIG||null;
 let auth=null,db=null,user=null,activePage="daily",records={},current={},monthRecords={},weekRecords={};
