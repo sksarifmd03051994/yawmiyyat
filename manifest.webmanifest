@@ -1,0 +1,18 @@
+{
+  "name": "يَوْمِيَّات — শেখ শরীফ মুহাম্মাদ",
+  "short_name": "يَوْمِيَّات",
+  "description": "ব্যক্তিগত ইসলামী জীবন, আমল ও রুটিনের রেকর্ডবুক",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#f4f7f3",
+  "theme_color": "#164f40",
+  "lang": "bn",
+  "icons": [
+    {
+      "src": "assets/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
